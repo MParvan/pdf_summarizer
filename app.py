@@ -6,7 +6,7 @@ import faiss
 import numpy as np
 
 st.set_page_config(page_title="PDF Summarizer & Q&A", layout="wide")
-st.title("📚 PDF Summarizer & Q&A Assistant:")
+st.title("📚 PDF Summarizer & Q&A Assistant")
 
 # Load summarizer model
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
